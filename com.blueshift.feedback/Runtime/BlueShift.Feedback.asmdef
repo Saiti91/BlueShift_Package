@@ -1,5 +1,6 @@
 {
-    "name": "Vellastephane91.BlueshiftPackage",
+    "name": "BlueShift.Feedback",
+    "rootNamespace": "BlueShift.Feedback",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": []

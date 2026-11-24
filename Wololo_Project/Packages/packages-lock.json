@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.blueshift.feedback": {
+      "version": "file:../../com.blueshift.feedback",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.14",
       "depth": 0,
@@ -192,14 +198,6 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
-    },
-    "com.vellastephane91.blueshift_package": {
-      "version": "file:../../com.vellastephane91.blueshift_package",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.test-framework": "1.6.0"
-      }
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",

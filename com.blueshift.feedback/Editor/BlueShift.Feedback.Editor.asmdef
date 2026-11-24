@@ -1,0 +1,11 @@
+{
+    "name": "BlueShift.Feedback.Editor",
+    "rootNamespace": "BlueShift.Feedback.Editor",
+    "references": [
+        "BlueShift.Feedback"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

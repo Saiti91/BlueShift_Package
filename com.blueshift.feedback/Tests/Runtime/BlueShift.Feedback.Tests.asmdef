@@ -1,7 +1,8 @@
 {
-    "name": "Vellastephane91.BlueshiftPackage.Tests",
+    "name": "BlueShift.Feedback.Tests",
+    "rootNamespace": "BlueShift.Feedback.Tests",
     "references": [
-        "Vellastephane91.BlueshiftPackage"
+        "BlueShift.Feedback"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"

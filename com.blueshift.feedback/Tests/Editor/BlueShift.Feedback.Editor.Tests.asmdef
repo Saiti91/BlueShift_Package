@@ -1,8 +1,9 @@
 {
-    "name": "Vellastephane91.BlueshiftPackage.Editor.Tests",
+    "name": "BlueShift.Feedback.Editor.Tests",
+    "rootNamespace": "BlueShift.Feedback.Editor.Tests",
     "references": [
-        "Vellastephane91.BlueshiftPackage.Editor",
-        "Vellastephane91.BlueshiftPackage"
+        "BlueShift.Feedback.Editor",
+        "BlueShift.Feedback"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"

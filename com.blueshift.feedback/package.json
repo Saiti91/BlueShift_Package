@@ -1,0 +1,19 @@
+{
+  "name": "com.blueshift.feedback",
+  "displayName": "BlueShift",
+  "version": "0.1.0",
+  "unity": "6000.3",
+  "description": "Feedback visuel piloté par la vitesse, les chocs ou le temps : déformation (scale et mesh), étirement, écrasement, tremblement, battement de cœur, et modification de matériaux (couleur, émission).",
+  "keywords": [
+    "feedback",
+    "juice",
+    "deformation",
+    "squash",
+    "stretch",
+    "material",
+    "animation"
+  ],
+  "author": {
+    "name": "BlueShift"
+  }
+}
