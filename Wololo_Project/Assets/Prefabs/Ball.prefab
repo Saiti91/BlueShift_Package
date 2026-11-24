@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4141501550049274478}
   - component: {fileID: 2335003659641355586}
   - component: {fileID: -5862674163341527781}
+  - component: {fileID: 182718615456084723}
   - component: {fileID: 583353176378160755}
   m_Layer: 0
   m_Name: Ball
@@ -141,6 +142,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &182718615456084723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8501337996661007260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac7d761dc0999a44856c56bd1082817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MaterialChange
+  ballMat: {fileID: 0}
+  maxSpeed: 100
+  baseColor: {r: 0.69803923, g: 0.69803923, b: 0.69803923, a: 0}
+  highSpeedColor: {r: 0.7735849, g: 0.11311854, b: 0.11311854, a: 0}
+  currentSpeed: 0
 --- !u!114 &583353176378160755
 MonoBehaviour:
   m_ObjectHideFlags: 0
