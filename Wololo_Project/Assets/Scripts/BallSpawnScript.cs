@@ -30,7 +30,8 @@ public class BallSpawnScript : MonoBehaviour
     void OnShootPerformed(InputAction.CallbackContext context)
     {
         GameObject ball = Instantiate(m_BallPrefab, transform.position, transform.rotation);
-        var rb = ball.GetComponent<Rigidbody>();
-        rb.AddForce(transform.forward * -ShootingForce, ForceMode.Impulse);
+
+        if (ball.TryGetComponent<Rigidbody>(out var rb))
+            rb.AddForce(transform.forward * -ShootingForce, ForceMode.Impulse);
     }
 }

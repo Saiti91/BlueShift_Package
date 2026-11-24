@@ -153,4 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06a25eab39b61f943b93f0e6c24ba0f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  timeBeforeDestroy: 2
+  timeBeforeDestroy: 5
+  stretchFactor: 0.05
+  maxStretch: 2
