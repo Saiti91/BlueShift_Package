@@ -154,8 +154,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ac7d761dc0999a44856c56bd1082817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MaterialChange
-  ballMat: {fileID: 0}
-  maxSpeed: 100
+  ballMat: {fileID: 2100000, guid: 2486ed8ad5271ed40bd6c1eb5ed999e6, type: 2}
+  maxSpeed: 50
   baseColor: {r: 0.69803923, g: 0.69803923, b: 0.69803923, a: 0}
   highSpeedColor: {r: 0.7735849, g: 0.11311854, b: 0.11311854, a: 0}
   currentSpeed: 0
@@ -171,6 +171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06a25eab39b61f943b93f0e6c24ba0f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  timeBeforeDestroy: 5
+  timeBeforeDestroy: 20
   stretchFactor: 0.05
   maxStretch: 2
