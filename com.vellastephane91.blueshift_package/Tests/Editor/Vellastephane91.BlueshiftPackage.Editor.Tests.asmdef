@@ -1,0 +1,14 @@
+{
+    "name": "Vellastephane91.BlueshiftPackage.Editor.Tests",
+    "references": [
+        "Vellastephane91.BlueshiftPackage.Editor",
+        "Vellastephane91.BlueshiftPackage"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

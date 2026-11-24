@@ -1,0 +1,11 @@
+{
+    "name": "Vellastephane91.BlueshiftPackage.Tests",
+    "references": [
+        "Vellastephane91.BlueshiftPackage"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Vellastephane91.BlueshiftPackage.Editor",
+    "references": [
+      "Vellastephane91.BlueshiftPackage"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}
