@@ -25,19 +25,68 @@ namespace BlueShift.Feedback
 
         public void Initialize(in FeedbackContext ctx)
         {
-            // TODO [T2] Initialiser la source et remettre les mappings à zéro.
+            if (source == null)
+            {
+                return;
+            }
+
+            source.Initialize(ctx);
+            foreach (IValueMapping mapping in mappings)
+            {
+                if (mapping == null)
+                {
+                    continue;
+                }
+
+                mapping.Reset();
+            }
         }
 
         /// <summary>Échantillonne la source puis applique les mappings dans l'ordre.</summary>
         public void Evaluate(in FeedbackContext ctx)
         {
-            // TODO [T2] Value = mappings appliqués à source.Value (ne pas ré-échantillonner ici
-            // une source physique : elle l'a été en FixedUpdate).
+            if (source == null)
+            {
+                Value = 0;
+                return;
+            }
+
+            if (!source.UsesPhysicsStep)
+            {
+                source.Sample(ctx);
+            }
+
+            float value = source.Value;
+
+            foreach (IValueMapping mapping in mappings)
+            {
+                if (mapping == null)
+                {
+                    continue;
+                }
+
+                value = mapping.Map(value, ctx.DeltaTime);
+            }
+
+            Value = value;
         }
 
         public void Reset()
         {
-            // TODO [T2] Reset source + mappings, Value = 0.
+            Value = 0;
+            if (source != null)
+            {
+                source.Reset();
+            }
+            foreach (IValueMapping mapping in mappings)
+            {
+                if (mapping == null)
+                {
+                    continue;
+                }
+
+                mapping.Reset();
+            }
         }
     }
 }
